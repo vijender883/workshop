@@ -1,3 +1,4 @@
+# pip install phidata google-generativeai yfinance
 from phi.agent import Agent
 from phi.model.google import Gemini
 from phi.tools.yfinance import YFinanceTools
