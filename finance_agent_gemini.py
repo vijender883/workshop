@@ -3,7 +3,7 @@ from phi.model.google import Gemini
 from phi.tools.yfinance import YFinanceTools
 
 # Set your Gemini API key here
-gemini_api_key = "AIzaSyAlyXEQc7aWeWcyZXiHDJ4EJeyynzovd-M"  # Replace with your actual Gemini API key
+gemini_api_key = YOUR_GEMINI_API_KEY_HERE  # Replace with your actual Gemini API key
 
 finance_agent = Agent(
     name="Finance Agent",
