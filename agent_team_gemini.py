@@ -1,5 +1,5 @@
 import os
-os.environ["GOOGLE_API_KEY"] = "AIzaSyAlyXEQc7aWeWcyZXiHDJ4EJeyynzovd-M"  # Replace with your actual Gemini API key
+os.environ["GOOGLE_API_KEY"] = YOUR_GEMINI_API_KEY_HERE  # Replace with your actual Gemini API key
 from phi.agent import Agent
 from phi.model.google import Gemini  # Changed from OpenAIChat to Gemini
 from phi.tools.duckduckgo import DuckDuckGo
