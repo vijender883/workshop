@@ -1,4 +1,4 @@
-pip install phidata google-generativeai yfinance duckduckgo-search
+# pip install phidata google-generativeai yfinance duckduckgo-search
 import os
 os.environ["GOOGLE_API_KEY"] = YOUR_GEMINI_API_KEY_HERE  # Replace with your actual Gemini API key
 from phi.agent import Agent
